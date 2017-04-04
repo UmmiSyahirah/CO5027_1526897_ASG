@@ -65,7 +65,29 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Bag Photos\4Background.JPG" />
+    <Content Include="Bag Photos\bagbanner.jpg" />
+    <Content Include="Bag Photos\Duchesspolkestuds1.jpg" />
+    <Content Include="Bag Photos\furlabanner.jpg" />
+    <Content Include="Bag Photos\Mercer2.jpg" />
+    <Content Include="Bag Photos\Mercer3.jpg" />
+    <Content Include="Bag Photos\MercerTote1.jpg" />
+    <Content Include="Bag Photos\MercerTote2.jpg" />
+    <Content Include="Bag Photos\MercerTote3.jpg" />
+    <Content Include="Bag Photos\MetropolisAcciaio1.jpg" />
+    <Content Include="Bag Photos\MirandaShoulder1.jpg" />
+    <Content Include="Bag Photos\MirandaShoulder2.jpg" />
+    <Content Include="Bag Photos\MirandaShoulder3.jpg" />
+    <Content Include="Bag Photos\StarkBagpack1.jpg" />
+    <Content Include="Bag Photos\StarkBeeboo1.jpg" />
+    <Content Include="Bag Photos\tonipetrolio1.jpg" />
+    <Content Include="Bag Photos\tophandlerosso1.jpg" />
+    <Content Include="Mercer.aspx" />
+    <Content Include="Miranda.aspx" />
     <Content Include="packages.config" />
+    <Content Include="Site1.Master" />
+    <Content Include="Tote.aspx" />
+    <Content Include="Video\Homevideo.webm" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -74,14 +96,76 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ABOUT.aspx" />
+    <Content Include="Bag Photos\Mercer1.jpg" />
+    <Content Include="BAGS.aspx" />
+    <Content Include="CONTACT.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="index.aspx" />
+    <Content Include="Style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ABOUT.aspx.cs">
+      <DependentUpon>ABOUT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ABOUT.aspx.designer.cs">
+      <DependentUpon>ABOUT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BAGS.aspx.cs">
+      <DependentUpon>BAGS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BAGS.aspx.designer.cs">
+      <DependentUpon>BAGS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CONTACT.aspx.cs">
+      <DependentUpon>CONTACT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CONTACT.aspx.designer.cs">
+      <DependentUpon>CONTACT.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mercer.aspx.cs">
+      <DependentUpon>Mercer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mercer.aspx.designer.cs">
+      <DependentUpon>Mercer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Miranda.aspx.cs">
+      <DependentUpon>Miranda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Miranda.aspx.designer.cs">
+      <DependentUpon>Miranda.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Tote.aspx.cs">
+      <DependentUpon>Tote.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tote.aspx.designer.cs">
+      <DependentUpon>Tote.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

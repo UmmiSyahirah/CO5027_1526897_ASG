@@ -1,0 +1,118 @@
+﻿body {    font-size: x-small;
+}
+
+.uppernav {
+    background-color: #000000;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+    .uppernav a {
+        color: white;
+        font-family: 'Courier New';
+        text-align: right;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 20px 10px;
+    }
+
+        .uppernav a:hover {
+            background-color: grey;
+            padding: 5px;
+            text-align: center;
+            
+        }
+
+div.container {
+    width:100%;
+    text-align:center;
+}
+
+h1 {
+    font-family: 'Courier New';
+    font-size: 50px;
+    text-align: center;
+}
+
+p {
+    font-family:'Courier New';
+    font-size:15px;
+    text-align:center;
+    color:white;
+}
+
+ul {
+    height:30%;
+    width:30%;
+    margin:auto;
+}
+
+.center {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 124px;
+    width: 486px;
+}
+
+.content {
+    height:100%;
+    width:100%;
+    margin-bottom:10px;
+    overflow:hidden;
+}
+
+.product {
+    margin-top:5%;
+    margin-left:5%;
+}
+
+.product ul {
+    width:100%;
+    margin: 0px auto;
+    list-style-type:none;
+    padding-left:9%;
+}
+
+.product ul li {
+    margin-bottom: 6%;
+    margin-right: 70px;
+    float: left;
+}
+
+.productcaption {
+    font-size:small;
+    text-align:center;
+}
+
+.productprice {
+    font-size:small;
+    text-align:center;
+}
+
+.footer {
+    background-color: #000000;
+    margin-top: 10px;
+    padding: 10px;
+    height: 23px;
+}
+
+article {
+    color:black;
+    font-family: 'Times New Roman';
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    border: 1px solid black;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+h2 {
+    font-family:"times new roman";
+}
+
+div.container1 p {
+    color:black;
+    font-family:'Times New Roman';
+}

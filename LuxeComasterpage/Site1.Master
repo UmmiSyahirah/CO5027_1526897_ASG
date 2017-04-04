@@ -1,0 +1,42 @@
+﻿ <%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="LuxeComasterpage.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link href="Style.css" rel="stylesheet" type="text/css" />
+
+    <title>Luxe & Co</title>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+    <body>
+ <form id="form1" runat="server">
+    
+     <h1> Luxe&Co</h1>
+                  <div class="uppernav">
+                    <div class="container">
+                        <nav>
+                            <a href="index.aspx"> HOME </a>
+                            <a href="BAGS.aspx"> BAGS </a>
+                            <a href="ABOUT.aspx"> BE LUXE </a>
+                            <a href="CONTACT.aspx"> CONTACT </a>
+                        </nav>
+                    </div>
+                </div>
+           
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+           </asp:ContentPlaceHolder>
+    
+     <div class="footer">
+        <footer>
+            <p> Copyright@Luxe&Co2017 | 1526897</p>
+        </footer>
+ </div>
+    </form>
+</body>
+</html>
