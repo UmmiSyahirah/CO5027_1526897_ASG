@@ -67,21 +67,42 @@
   <ItemGroup>
     <Content Include="Bag Photos\4Background.JPG" />
     <Content Include="Bag Photos\bagbanner.jpg" />
+    <Content Include="Bag Photos\discoverbanner.jpg" />
     <Content Include="Bag Photos\Duchesspolkestuds1.jpg" />
+    <Content Include="Bag Photos\Duchesspolkestuds2.jpg" />
+    <Content Include="Bag Photos\Duchesspolkestuds3.jpg" />
+    <Content Include="Bag Photos\enjoybanner.jpg" />
     <Content Include="Bag Photos\furlabanner.jpg" />
+    <Content Include="Bag Photos\mcm bag banner.jpg" />
     <Content Include="Bag Photos\Mercer2.jpg" />
     <Content Include="Bag Photos\Mercer3.jpg" />
     <Content Include="Bag Photos\MercerTote1.jpg" />
     <Content Include="Bag Photos\MercerTote2.jpg" />
     <Content Include="Bag Photos\MercerTote3.jpg" />
     <Content Include="Bag Photos\MetropolisAcciaio1.jpg" />
+    <Content Include="Bag Photos\MetropolisAcciaio2.jpg" />
+    <Content Include="Bag Photos\MetropolisAcciaio3.jpg" />
     <Content Include="Bag Photos\MirandaShoulder1.jpg" />
     <Content Include="Bag Photos\MirandaShoulder2.jpg" />
     <Content Include="Bag Photos\MirandaShoulder3.jpg" />
     <Content Include="Bag Photos\StarkBagpack1.jpg" />
+    <Content Include="Bag Photos\StarkBagpack2.jpg" />
+    <Content Include="Bag Photos\StarkBagpack3.jpg" />
+    <Content Include="Bag Photos\Starkbebeboo2.jpg" />
     <Content Include="Bag Photos\StarkBeeboo1.jpg" />
+    <Content Include="Bag Photos\Starkbeeboo3.jpg" />
     <Content Include="Bag Photos\tonipetrolio1.jpg" />
+    <Content Include="Bag Photos\tonipetrolio2.jpg" />
+    <Content Include="Bag Photos\tonipetrolio3.jpg" />
+    <Content Include="Bag Photos\tophandlerosso.jpg" />
     <Content Include="Bag Photos\tophandlerosso1.jpg" />
+    <Content Include="Bag Photos\tophandlerosso2.jpg" />
+    <Content Include="furlaaccacio.aspx" />
+    <Content Include="furlatoni.aspx" />
+    <Content Include="furlatophandle.aspx" />
+    <Content Include="mcmbeeboo.aspx" />
+    <Content Include="mcmduchess.aspx" />
+    <Content Include="mcmstark.aspx" />
     <Content Include="Mercer.aspx" />
     <Content Include="Miranda.aspx" />
     <Content Include="packages.config" />
@@ -127,6 +148,27 @@
     <Compile Include="CONTACT.aspx.designer.cs">
       <DependentUpon>CONTACT.aspx</DependentUpon>
     </Compile>
+    <Compile Include="furlaaccacio.aspx.cs">
+      <DependentUpon>furlaaccacio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="furlaaccacio.aspx.designer.cs">
+      <DependentUpon>furlaaccacio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="furlatoni.aspx.cs">
+      <DependentUpon>furlatoni.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="furlatoni.aspx.designer.cs">
+      <DependentUpon>furlatoni.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="furlatophandle.aspx.cs">
+      <DependentUpon>furlatophandle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="furlatophandle.aspx.designer.cs">
+      <DependentUpon>furlatophandle.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -136,6 +178,27 @@
     </Compile>
     <Compile Include="index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mcmbeeboo.aspx.cs">
+      <DependentUpon>mcmbeeboo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mcmbeeboo.aspx.designer.cs">
+      <DependentUpon>mcmbeeboo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mcmduchess.aspx.cs">
+      <DependentUpon>mcmduchess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mcmduchess.aspx.designer.cs">
+      <DependentUpon>mcmduchess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="mcmstark.aspx.cs">
+      <DependentUpon>mcmstark.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mcmstark.aspx.designer.cs">
+      <DependentUpon>mcmstark.aspx</DependentUpon>
     </Compile>
     <Compile Include="Mercer.aspx.cs">
       <DependentUpon>Mercer.aspx</DependentUpon>

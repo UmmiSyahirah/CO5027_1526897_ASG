@@ -3,8 +3,8 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
-        <img src="Bag%20Photos/bagbanner.jpg" style="height: 279px; width: 850px" class="center"/>
+    <div class="container3">
+        <img src="Bag%20Photos/bagbanner.jpg" />
 
             <article>Luxe &  Co just started our company in 2017. We are offering different type and brand of handbags under one roof. 
                 <br />
@@ -16,5 +16,6 @@
                 Love, Luxe & Co
                
             </article>
+        </div>
 
 </asp:Content>

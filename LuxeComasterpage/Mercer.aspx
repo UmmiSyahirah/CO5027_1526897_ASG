@@ -9,9 +9,9 @@
     <table>
         <tr>
 
-        <td><img src="Bag%20Photos/Mercer1.jpg" height="400" width="300" /></td>
-        <td><img src="Bag%20Photos/Mercer2.jpg" height="400" width="300" /></td>
-        <td><img src="Bag%20Photos/Mercer3.jpg" height="400" width="300" /></td>
+        <td><img src="Bag%20Photos/Mercer1.jpg" height="600" width="300" /></td>
+        <td><img src="Bag%20Photos/Mercer2.jpg" height="600" width="300" /></td>
+        <td><img src="Bag%20Photos/Mercer3.jpg" height="600" width="300" /></td>
         
     </tr>
     </table>

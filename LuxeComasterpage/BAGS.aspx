@@ -7,7 +7,7 @@
     <div class="product">
         <ul>
             <li>
-                <a href="Bag Photos/tophandlerosso1.jpg" title="Furla Rosso Top Handle">
+                <a href="furlatophandle.aspx" title="Furla Rosso Top Handle">
                     <img src="Bag%20Photos/tophandlerosso1.jpg" height="250" width="300"/>  
                 </a>
             <div class="productcaption">Furla Rosso Top Handle</div>
@@ -15,14 +15,14 @@
 
             </li>
             <li>
-                <a href="Bag Photos/MetropolisAcciaio1.jpg" title="Furla Metropolis Acciaio">
+                <a href="furlaaccacio.aspx" title="Furla Metropolis Acciaio">
                     <img src="Bag%20Photos/MetropolisAcciaio1.jpg" height="250" width="300" />
                     </a>
             <div class="productcaption">Furla Metropolis Acciaio Crossbody</div>
             <div class="productprice">BND 320</div>
             </li>
                         <li>
-                <a href="Bag Photos/tonipetrolio1.jpg" title="Furla Tonipetrolio">
+                <a href="furlatoni.aspx" title="Furla Tonipetrolio">
                     <img src="Bag%20Photos/tonipetrolio1.jpg" height="250" width="300" />
                     </a>
             <div class="productcaption">Furla Tonipetrolio Crossbody</div>
@@ -31,7 +31,7 @@
         </ul>
      <ul>
       <li>
-       <a href="Tote.aspx">
+       <a href="Tote.aspx" title="Michael Kors Mercer Tote">
            <img src="Bag%20Photos/MercerTote1.jpg" alt="Michael Kors Mercer Tote" height="400" width="300" />
        </a>
            <div class="productcaption">Michael Kors Mercer Tote</div>
@@ -39,7 +39,7 @@
       </li>
        
       <li>
-           <a href="Mercer.aspx">
+           <a href="Mercer.aspx" title="Michael Kors Mercer Satchel Medium">
                <img src="Bag%20Photos/Mercer1.jpg" alt="Michael Kors Mercer Satchel Medium" height="400" width="300" />
            </a>
                 <div class="productcaption">Michael Kors Mercer Satchel</div>
@@ -47,7 +47,7 @@
             </li>
             
             <li>
-               <a href="Miranda.aspx">
+               <a href="Miranda.aspx" title="Michael Kors Miranda Shoulder Bag">
                     <img src="Bag%20Photos/MirandaShoulder1.jpg" height="400" width="300" />
            </a>
 
@@ -59,26 +59,26 @@
 
         <ul>
             <li>
-                <a href="Bag Photos/StarkBagpack1.jpg" title="MCM Stark Bagpack">
+                <a href="mcmstark.aspx" title="MCM Stark Backpack">
                     <img src="Bag%20Photos/StarkBagpack1.jpg" height="300" width="300"/>
                 </a>
 
-                <div class="productcaption">MCM Stark Bagpack</div>
+                <div class="productcaption">MCM Stark Backpack</div>
                 <div class="productprice">BND 1200</div>
             </li>
 
             <li>
-                <a href="Bag Photos/StarkBeeboo1.jpg" title="MCM Stark BeeBoo">
+                <a href="mcmbeeboo.aspx" title="MCM Stark BeeBoo">
                     <img src="Bag%20Photos/StarkBeeboo1.jpg" height="300" width="300"/>
                 </a>
 
-                <div class="productcaption">MCM Stark BeeBoo</div>
+                <div class="productcaption">MCM Stark BeeBoo X-MINI</div>
                 <div class="productprice">BND 1080</div>
 
             </li>
 
             <li>
-                <a href="Bag Photos/Duchesspolkestuds1.jpg" title="MCM Duchess Polke">
+                <a href="mcmduchess.aspx" title="MCM Duchess Polke">
                     <img src="Bag%20Photos/Duchesspolkestuds1.jpg" height="300" width="300" />
                 </a>
 

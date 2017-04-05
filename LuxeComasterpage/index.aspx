@@ -7,9 +7,18 @@
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-       
-        <img src="Bag%20Photos/4Background.JPG" />
- 
+       <div class="container2">
+           <img src="Bag%20Photos/mcm%20bag%20banner.jpg" />
+            <h2> "Women need handbag to complete us" </h2>
+        </div>
+
+    <div class="container4">
+        <img src="Bag%20Photos/enjoybanner.jpg" />
+    </div>
+
+    <div class="container5">
+        <img src="Bag%20Photos/furlabanner.jpg" />
+    </div>
 </asp:Content>
 
 

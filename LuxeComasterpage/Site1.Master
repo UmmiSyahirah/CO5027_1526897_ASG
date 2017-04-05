@@ -1,4 +1,6 @@
-﻿ <%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="LuxeComasterpage.Site1" %>
+﻿
+
+ <%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="LuxeComasterpage.Site1" %>
 
 <!DOCTYPE html>
 
@@ -19,10 +21,10 @@
                   <div class="uppernav">
                     <div class="container">
                         <nav>
-                            <a href="index.aspx"> HOME </a>
-                            <a href="BAGS.aspx"> BAGS </a>
-                            <a href="ABOUT.aspx"> BE LUXE </a>
-                            <a href="CONTACT.aspx"> CONTACT </a>
+                            <a href="~/index.aspx" runat="server"> HOME </a>
+                            <a href="~/BAGS.aspx" runat="server"> BAGS </a>
+                            <a href="~/ABOUT.aspx" runat="server"> ABOUT LUXE </a>
+                            <a href="~/CONTACT.aspx" runat="server"> CONTACT </a>
                         </nav>
                     </div>
                 </div>

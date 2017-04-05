@@ -4,12 +4,12 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container1">
         <h2> Michael Kors Miranda Shoulder Bag</h2>
-    <table>
+        <table>
         <tr>
 
-        <td><img src="Bag%20Photos/MirandaShoulder1.jpg" height="400" width="300" /></td>
-        <td><img src="Bag%20Photos/MirandaShoulder2.jpg" height="400" width="300" /></td>
-        <td><img src="Bag%20Photos/MirandaShoulder3.jpg" height="400" width="300" /></td>
+        <td><img src="Bag%20Photos/MirandaShoulder1.jpg" height="600" width="300" /></td>
+        <td><img src="Bag%20Photos/MirandaShoulder2.jpg" height="600" width="300" /></td>
+        <td><img src="Bag%20Photos/MirandaShoulder3.jpg" height="600" width="300"/></td>
         
     </tr>
     </table>

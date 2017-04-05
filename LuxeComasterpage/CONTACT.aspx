@@ -4,28 +4,40 @@
     .auto-style1 {
         font-size: small;
     }
-</style>
+        #Text7 {
+            height: 145px;
+            width: 287px;
+        }
+        .auto-style2 {
+            width: 289px;
+            height: 193px;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-    <h2> &nbsp;&nbsp;&nbsp;&nbsp; Be LUXE with us </h2>
-    <span class="auto-style1">     &nbsp;&nbsp;&nbsp;&nbsp;     First Name: <input id="Text1" type="text" /><br />
+    <h2> Be LUXE with us </h2>
+    <span class="auto-style1">
+        First Name: <input id="Text1" type="text" /><br />
     </span><br />
-    <span class="auto-style1">     &nbsp;&nbsp;&nbsp;&nbsp;     Last Name: <input id="Text2" type="text" /><br />
+    <span class="auto-style1">
+     Last Name: <input id="Text2" type="text" /><br />
     <br />
-&nbsp;&nbsp;&nbsp;&nbsp; Username:
+     Username:
     <input id="Text5" type="text" /><br />
     <br />
-&nbsp;&nbsp;&nbsp;&nbsp; Password:
+    Password:
     <input id="Text6" type="text" /><br />
     </span><br />
-    <span class="auto-style1">     &nbsp;&nbsp;&nbsp;&nbsp;     Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input id="Text3" type="text" /><br />
+    <span class="auto-style1">     
+        Email:<input id="Text3" type="text" /><br />
     </span><br />  
-    <span class="auto-style1">     &nbsp;&nbsp;&nbsp;     Phone No: <input id="Text4" type="text" /></span><br />
+    <span class="auto-style1">     
+        Phone No: <input id="Text4" type="text" /></span><br />
     <br class="auto-style1" />
   
     <br />
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   
     <input id="Submit1" type="submit" value="submit" /><br />
     <br />
     <br />
