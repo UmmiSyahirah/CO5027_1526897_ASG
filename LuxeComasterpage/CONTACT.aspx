@@ -53,6 +53,6 @@
     </script>
     <script src="maps.js"></script>
 
-    <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2F1526897.studentwebserver.co.uk%2Fco5027%2FCONTACT.aspx"> CONTACT.aspx Validation Checking</a>
+    <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2F1526897.studentwebserver.co.uk%2Fco5027%2FCONTACT.aspx"> HTML Validation </a>
  
 </asp:Content>

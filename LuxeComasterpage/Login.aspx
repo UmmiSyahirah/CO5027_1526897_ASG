@@ -10,23 +10,25 @@
 
    
     <br />
-    &nbsp&nbsp<asp:Label ID="labelUsername" runat="server" Text="Username:"></asp:Label>
-    &nbsp&nbsp<asp:TextBox ID="textUsername" runat="server"></asp:TextBox>
+   <asp:Label ID="labelUsername" runat="server" Text="Username:"></asp:Label>
+   <asp:TextBox ID="textUsername" runat="server"></asp:TextBox>
 
     <br />
 
     <br />
-    &nbsp&nbsp<asp:Label ID="labelPassword" runat="server" Text="Password:"></asp:Label>
-    &nbsp&nbsp<asp:TextBox ID="textPassword" runat="server"></asp:TextBox>
+    <asp:Label ID="labelPassword" runat="server" Text="Password:"></asp:Label>
+   <asp:TextBox ID="textPassword" runat="server"></asp:TextBox>
 
     <br />
     <br />
-   &nbsp&nbsp<asp:Button ID="btnLogin" runat="server" Text="Sign In" OnClick="btnLogin_Click" />
+    <asp:Button ID="btnLogin" runat="server" Text="Sign In" OnClick="btnLogin_Click" />
     <br />
     <br />
+        </h4>
 
     <p> Not Luxe Member? Click <a href="Register.aspx">here</a> to register </p>
-        </h4>
+        
+
     <asp:Literal ID="LitText" runat="server"></asp:Literal>
     
 </asp:Content>
