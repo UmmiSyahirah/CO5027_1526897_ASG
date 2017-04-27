@@ -6,7 +6,8 @@
     <div class="container3">
         <img src="Bag%20Photos/bagbanner.jpg" alt="BagBanner"/>
 
-            <article>Luxe &  Co just started our company in 2017. We are offering different type and brand of handbags under one roof. 
+            <article>
+                <p>Luxe &  Co just started our company in 2017. We are offering different type and brand of handbags under one roof. 
                 <br />
                As a woman, we need handbag to complete us. In addition, handbag also necessary to bring our needs. Knowing that 99% of woman obsessed with handbag, so we create a website of online shopping with ease secure procedures.
                 <br />
@@ -14,6 +15,7 @@
                 <br />
                 <br />
                 Love, Luxe & Co
+                    </p>
                
             </article>
         </div>
