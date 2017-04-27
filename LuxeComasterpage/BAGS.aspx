@@ -91,4 +91,6 @@
     </div>
     </div>
 
+    <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2F1526897.studentwebserver.co.uk%2Fco5027%2FBAGS.aspx">Contact Page Validation Checking</a>
+
 </asp:Content>
