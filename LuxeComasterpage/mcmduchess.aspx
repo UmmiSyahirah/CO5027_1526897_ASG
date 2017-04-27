@@ -5,13 +5,13 @@
      <a href="BAGS.aspx" runat="server"></a>
 
     <div class="container1">
-        <h2> MCM Duchess Polke Studs Backpack</h2>
+        <h2> MCM Duchess Polke Studs Backpack </h2>
     <table>
         <tr>
 
-        <td><img src="Bag%20Photos/Duchesspolkestuds1.jpg" height="500" width="150" /></td>
-        <td><img src="Bag%20Photos/Duchesspolkestuds2.jpg" height="500" width="150" /></td>
-        <td><img src="Bag%20Photos/Duchesspolkestuds3.jpg" height="500" width="150" /></td>
+        <td><img src="Bag%20Photos/Duchesspolkestuds1.jpg" alt="MCM Duchess Polke Studs Backpack" height="500" width="150" /></td>
+        <td><img src="Bag%20Photos/Duchesspolkestuds2.jpg" alt="MCM Duchess Polke Studs Backpack" height="500" width="150" /></td>
+        <td><img src="Bag%20Photos/Duchesspolkestuds3.jpg" alt="MCM Duchess Polke Studs Backpack" height="500" width="150" /></td>
         
     </tr>
     </table>

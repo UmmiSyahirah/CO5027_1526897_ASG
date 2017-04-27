@@ -1,17 +1,17 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Mercer.aspx.cs" Inherits="LuxeComasterpage.Mercer" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Rubino.aspx.cs" Inherits="LuxeComasterpage.Mercer" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <a href="BAGS.aspx" runat="server"></a>
 
     <div class="container1">
-        <h2> Michael Kors Mercer Medium Satchel Bag</h2>
-    <table>
+        <h2> Furla Rubino Mini Crossbody Bag </h2>
+            <table>
         <tr>
 
-        <td><img src="Bag%20Photos/Mercer1.jpg" height="600" width="300" /></td>
-        <td><img src="Bag%20Photos/Mercer2.jpg" height="600" width="300" /></td>
-        <td><img src="Bag%20Photos/Mercer3.jpg" height="600" width="300" /></td>
+        <td><img src="Bag%20Photos/Furla%20Crossbody%20Rubino%20A.jpg" alt="Furla Rubino Mini Crossbody" height="300" width="150" /></td>
+        <td><img src="Bag%20Photos/Furla%20Rubino%202.jpg" alt="Furla Rubino Mini Crossbody" height="300" width="150" /></td>
+        <td><img src="Bag%20Photos/Furla%20Rubino%203.jpg" alt="Furla Rubino Mini Crossbody" height="300" width="150" /></td>
         
     </tr>
     </table>

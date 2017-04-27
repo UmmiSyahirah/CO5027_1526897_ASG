@@ -9,9 +9,9 @@
     <table>
         <tr>
 
-        <td><img src="Bag%20Photos/tophandlerosso.jpg" height="300" width="300" /></td>
-        <td><img src="Bag%20Photos/tophandlerosso1.jpg" height="300" width="300" /></td>
-        <td><img src="Bag%20Photos/tophandlerosso2.jpg" height="300" width="300" /></td>
+        <td><img src="Bag%20Photos/tophandlerosso.jpg" alt="Furla Rosso Top Handle" height="300" width="300" /></td>
+        <td><img src="Bag%20Photos/tophandlerosso1.jpg" alt="Furla Rosso Top Handle" height="300" width="300" /></td>
+        <td><img src="Bag%20Photos/tophandlerosso2.jpg" alt="Furla Rosso Top Handle" height="300" width="300" /></td>
         
     </tr>
     </table>

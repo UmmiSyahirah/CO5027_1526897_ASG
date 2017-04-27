@@ -9,9 +9,9 @@
     <table>
         <tr>
 
-        <td><img src="Bag%20Photos/tonipetrolio1.jpg" height="300" width="150" /></td>
-        <td><img src="Bag%20Photos/tonipetrolio2.jpg" height="300" width="150" /></td>
-        <td><img src="Bag%20Photos/tonipetrolio3.jpg" height="300" width="150" /></td>
+        <td><img src="Bag%20Photos/tonipetrolio1.jpg" alt="Furla Toni Petrolio Crossbody" height="300" width="150" /></td>
+        <td><img src="Bag%20Photos/tonipetrolio2.jpg" alt="Furla Toni Petrolio Crossbody" height="300" width="150" /></td>
+        <td><img src="Bag%20Photos/tonipetrolio3.jpg" alt="Furla Toni Petrolio Crossbody" height="300" width="150" /></td>
         
     </tr>
     </table>

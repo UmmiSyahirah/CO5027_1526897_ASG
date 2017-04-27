@@ -9,9 +9,9 @@
     <table>
         <tr>
 
-        <td><img src="Bag%20Photos/MetropolisAcciaio1.jpg" height="300" width="300" /></td>
-        <td><img src="Bag%20Photos/MetropolisAcciaio2.jpg" height="300" width="300" /></td>
-        <td><img src="Bag%20Photos/MetropolisAcciaio3.jpg" height="300" width="300" /></td>
+        <td><img src="Bag%20Photos/MetropolisAcciaio1.jpg" alt="Furla Accacio" height="300" width="300" /></td>
+        <td><img src="Bag%20Photos/MetropolisAcciaio2.jpg" alt="Furla Accacio" height="300" width="300" /></td>
+        <td><img src="Bag%20Photos/MetropolisAcciaio3.jpg" alt="Furla Accacio" height="300" width="300" /></td>
         
     </tr>
     </table>

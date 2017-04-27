@@ -32,6 +32,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>MixedMinimumRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -43,10 +44,37 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.1\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Owin, Version=3.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.3.1.0\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb, Version=3.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.3.1.0\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security, Version=3.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.3.1.0\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies, Version=3.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.3.1.0\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -72,19 +100,20 @@
     <Content Include="Bag Photos\Duchesspolkestuds2.jpg" />
     <Content Include="Bag Photos\Duchesspolkestuds3.jpg" />
     <Content Include="Bag Photos\enjoybanner.jpg" />
+    <Content Include="Bag Photos\furla capriccio.jpg" />
+    <Content Include="Bag Photos\furla capriccio2.jpg" />
+    <Content Include="Bag Photos\furla capriccio3.jpg" />
+    <Content Include="Bag Photos\Furla Crossbody Rubino A.jpg" />
+    <Content Include="Bag Photos\Furla Rubino 2.jpg" />
+    <Content Include="Bag Photos\Furla Rubino 3.jpg" />
+    <Content Include="Bag Photos\Furla Stacy Bucket %282%29.jpg" />
+    <Content Include="Bag Photos\Furla Stacy Bucket.jpg" />
     <Content Include="Bag Photos\furlabanner.jpg" />
     <Content Include="Bag Photos\mcm bag banner.jpg" />
-    <Content Include="Bag Photos\Mercer2.jpg" />
-    <Content Include="Bag Photos\Mercer3.jpg" />
-    <Content Include="Bag Photos\MercerTote1.jpg" />
-    <Content Include="Bag Photos\MercerTote2.jpg" />
-    <Content Include="Bag Photos\MercerTote3.jpg" />
     <Content Include="Bag Photos\MetropolisAcciaio1.jpg" />
     <Content Include="Bag Photos\MetropolisAcciaio2.jpg" />
     <Content Include="Bag Photos\MetropolisAcciaio3.jpg" />
-    <Content Include="Bag Photos\MirandaShoulder1.jpg" />
-    <Content Include="Bag Photos\MirandaShoulder2.jpg" />
-    <Content Include="Bag Photos\MirandaShoulder3.jpg" />
+    <Content Include="Bag Photos\stacy3.jpg" />
     <Content Include="Bag Photos\StarkBagpack1.jpg" />
     <Content Include="Bag Photos\StarkBagpack2.jpg" />
     <Content Include="Bag Photos\StarkBagpack3.jpg" />
@@ -100,15 +129,23 @@
     <Content Include="furlaaccacio.aspx" />
     <Content Include="furlatoni.aspx" />
     <Content Include="furlatophandle.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="maps.js" />
     <Content Include="mcmbeeboo.aspx" />
     <Content Include="mcmduchess.aspx" />
     <Content Include="mcmstark.aspx" />
-    <Content Include="Mercer.aspx" />
-    <Content Include="Miranda.aspx" />
+    <Content Include="Rubino.aspx" />
+    <Content Include="Capriccio.aspx" />
     <Content Include="packages.config" />
+    <Content Include="Privatepage.aspx" />
+    <Content Include="Register.aspx" />
     <Content Include="Site1.Master" />
-    <Content Include="Tote.aspx" />
+    <Content Include="Furlastacy.aspx" />
     <Content Include="Video\Homevideo.webm" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -118,13 +155,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ABOUT.aspx" />
-    <Content Include="Bag Photos\Mercer1.jpg" />
     <Content Include="BAGS.aspx" />
     <Content Include="CONTACT.aspx" />
     <Content Include="Global.asax" />
-    <Content Include="index.aspx" />
+    <Content Include="Default.aspx" />
     <Content Include="Style.css" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ABOUT.aspx.cs">
@@ -172,12 +210,19 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="index.aspx.cs">
-      <DependentUpon>index.aspx</DependentUpon>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="index.aspx.designer.cs">
-      <DependentUpon>index.aspx</DependentUpon>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="mcmbeeboo.aspx.cs">
       <DependentUpon>mcmbeeboo.aspx</DependentUpon>
@@ -200,21 +245,41 @@
     <Compile Include="mcmstark.aspx.designer.cs">
       <DependentUpon>mcmstark.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Mercer.aspx.cs">
-      <DependentUpon>Mercer.aspx</DependentUpon>
+    <Compile Include="Rubino.aspx.cs">
+      <DependentUpon>Rubino.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Mercer.aspx.designer.cs">
-      <DependentUpon>Mercer.aspx</DependentUpon>
+    <Compile Include="Rubino.aspx.designer.cs">
+      <DependentUpon>Rubino.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Miranda.aspx.cs">
-      <DependentUpon>Miranda.aspx</DependentUpon>
+    <Compile Include="Capriccio.aspx.cs">
+      <DependentUpon>Capriccio.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Miranda.aspx.designer.cs">
-      <DependentUpon>Miranda.aspx</DependentUpon>
+    <Compile Include="Capriccio.aspx.designer.cs">
+      <DependentUpon>Capriccio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Privatepage.aspx.cs">
+      <DependentUpon>Privatepage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Privatepage.aspx.designer.cs">
+      <DependentUpon>Privatepage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -222,12 +287,13 @@
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
     </Compile>
-    <Compile Include="Tote.aspx.cs">
-      <DependentUpon>Tote.aspx</DependentUpon>
+    <Compile Include="Startup.cs" />
+    <Compile Include="Furlastacy.aspx.cs">
+      <DependentUpon>Furlastacy.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Tote.aspx.designer.cs">
-      <DependentUpon>Tote.aspx</DependentUpon>
+    <Compile Include="Furlastacy.aspx.designer.cs">
+      <DependentUpon>Furlastacy.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

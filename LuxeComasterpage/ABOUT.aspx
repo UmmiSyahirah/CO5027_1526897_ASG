@@ -4,7 +4,7 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container3">
-        <img src="Bag%20Photos/bagbanner.jpg" />
+        <img src="Bag%20Photos/bagbanner.jpg" alt="BagBanner"/>
 
             <article>Luxe &  Co just started our company in 2017. We are offering different type and brand of handbags under one roof. 
                 <br />

@@ -38,7 +38,7 @@ p {
     font-family:'Courier New';
     font-size:15px;
     text-align:center;
-    color:white;
+    color:black;
 }
 
 ul {
@@ -92,10 +92,20 @@ ul {
 
 .footer {
     background-color: #000000;
-    margin-top: 10px;
-    padding: 10px;
-    height: 23px;
+    height: 32px;
+    margin-top: 2px;
 }
+
+    .footer p {
+        font-family: 'Courier New';
+        font-size: 20px;
+        text-align: center;
+        color: white;
+    }
+    .footer img {
+        text-align:left;
+        margin-left:10px;
+    }
 
 article {
     color:black;
@@ -160,4 +170,16 @@ div.container4 img {
 div.container5 img {
     width:100%;
     padding-top:20px;
+}
+
+#maps {
+    height: 400px;
+    width:100%;
+    background-color:black;
+}
+
+h4 {
+    font-family:'Courier New';
+    font-size:20px;
+    text-align:center;
 }

@@ -9,9 +9,9 @@
     <table>
         <tr>
 
-        <td><img src="Bag%20Photos/StarkBagpack1.jpg" height="500" width="200" /></td>
-        <td><img src="Bag%20Photos/StarkBagpack2.jpg" height="500" width="200" /></td>
-        <td><img src="Bag%20Photos/StarkBagpack3.jpg" height="500" width="200" /></td>
+        <td><img src="Bag%20Photos/StarkBagpack1.jpg" alt="MCM Stark Backpack" height="500" width="200" /></td>
+        <td><img src="Bag%20Photos/StarkBagpack2.jpg" alt="MCM Stark Backpack" height="500" width="200" /></td>
+        <td><img src="Bag%20Photos/StarkBagpack3.jpg" alt="MCM Stark Backpack" height="500" width="200" /></td>
         
     </tr>
     </table>
