@@ -46,6 +46,14 @@ namespace LuxeComasterpage
 
         }
 
-        
+        protected void txtFirst_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void txtEmail_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

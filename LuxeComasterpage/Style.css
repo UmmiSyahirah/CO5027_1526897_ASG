@@ -107,7 +107,7 @@ ul {
         margin-left:10px;
     }
 
-article {
+article p {
     color:black;
     font-family: 'Times New Roman';
     text-align: center;
@@ -166,9 +166,15 @@ div.container3 p {
     font-size:18px;
 }
 
-div.container4 img {
-    width:60%;
-    height:auto;
+div.container4 table {
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+div.container4 h2 {
+    font-style:italic;
+    text-align:center;
 }
 
 div.container5 img {

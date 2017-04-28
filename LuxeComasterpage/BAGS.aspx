@@ -31,7 +31,7 @@
         </ul>
      <ul>
       <li>
-          <a href="Furlastacy.aspx">Furlastacy.aspx title="Furla Stacy Bucket Bag">
+          <a href="Furlastacy.aspx" title="Furla Stacy Bucket Bag">
            <img src="Bag%20Photos/Furla%20Stacy%20Bucket.jpg" alt="Furla Stacy Bucket Bag" height="250" width="300" />
        </a>
            <div class="productcaption">Furla Stacy Bucket Bag</div>
@@ -91,6 +91,6 @@
     </div>
     </div>
 
-    <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2F1526897.studentwebserver.co.uk%2Fco5027%2FBAGS.aspx">Contact Page Validation Checking</a>
+    <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2F1526897.studentwebserver.co.uk%2Fco5027%2FBAGS.aspx">HTML Validation</a>
 
 </asp:Content>

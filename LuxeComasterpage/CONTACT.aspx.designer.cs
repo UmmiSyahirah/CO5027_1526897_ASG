@@ -31,6 +31,15 @@ namespace LuxeComasterpage {
         protected global::System.Web.UI.WebControls.TextBox txtFirst;
         
         /// <summary>
+        /// ReqValFirst control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator ReqValFirst;
+        
+        /// <summary>
         /// lblLastname control.
         /// </summary>
         /// <remarks>
@@ -47,6 +56,15 @@ namespace LuxeComasterpage {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtLast;
+        
+        /// <summary>
+        /// ReqValLast control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator ReqValLast;
         
         /// <summary>
         /// lblEmail control.
@@ -67,6 +85,15 @@ namespace LuxeComasterpage {
         protected global::System.Web.UI.WebControls.TextBox txtEmail;
         
         /// <summary>
+        /// ReqValEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator ReqValEmail;
+        
+        /// <summary>
         /// lblPhone control.
         /// </summary>
         /// <remarks>
@@ -83,6 +110,15 @@ namespace LuxeComasterpage {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtPhone;
+        
+        /// <summary>
+        /// ReqValPhone control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator ReqValPhone;
         
         /// <summary>
         /// lblSubject control.
@@ -103,6 +139,15 @@ namespace LuxeComasterpage {
         protected global::System.Web.UI.WebControls.TextBox TxtSubject;
         
         /// <summary>
+        /// ReqValSub control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator ReqValSub;
+        
+        /// <summary>
         /// lblMessage control.
         /// </summary>
         /// <remarks>
@@ -119,6 +164,15 @@ namespace LuxeComasterpage {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TxtMessage;
+        
+        /// <summary>
+        /// ReqValMsg control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator ReqValMsg;
         
         /// <summary>
         /// BtnSubmit control.
