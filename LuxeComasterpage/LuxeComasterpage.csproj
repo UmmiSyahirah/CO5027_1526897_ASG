@@ -96,11 +96,9 @@
     <Content Include="Admin.aspx" />
     <Content Include="Bag Photos\4Background.JPG" />
     <Content Include="Bag Photos\bagbanner.jpg" />
-    <Content Include="Bag Photos\discoverbanner.jpg" />
     <Content Include="Bag Photos\Duchesspolkestuds1.jpg" />
     <Content Include="Bag Photos\Duchesspolkestuds2.jpg" />
     <Content Include="Bag Photos\Duchesspolkestuds3.jpg" />
-    <Content Include="Bag Photos\enjoybanner.jpg" />
     <Content Include="Bag Photos\furla capriccio.jpg" />
     <Content Include="Bag Photos\furla capriccio2.jpg" />
     <Content Include="Bag Photos\furla capriccio3.jpg" />
@@ -109,8 +107,6 @@
     <Content Include="Bag Photos\Furla Rubino 3.jpg" />
     <Content Include="Bag Photos\Furla Stacy Bucket %282%29.jpg" />
     <Content Include="Bag Photos\Furla Stacy Bucket.jpg" />
-    <Content Include="Bag Photos\furlabanner.jpg" />
-    <Content Include="Bag Photos\mcm bag banner.jpg" />
     <Content Include="Bag Photos\MetropolisAcciaio1.jpg" />
     <Content Include="Bag Photos\MetropolisAcciaio2.jpg" />
     <Content Include="Bag Photos\MetropolisAcciaio3.jpg" />
@@ -135,15 +131,13 @@
     <Content Include="mcmbeeboo.aspx" />
     <Content Include="mcmduchess.aspx" />
     <Content Include="mcmstark.aspx" />
+    <Content Include="Productdetails.aspx" />
     <Content Include="Rubino.aspx" />
     <Content Include="Capriccio.aspx" />
     <Content Include="packages.config" />
-    <Content Include="Privatepage.aspx" />
-    <Content Include="Register.aspx" />
     <Content Include="Site1.Master" />
     <Content Include="Furlastacy.aspx" />
     <Content Include="Uploadfile.aspx" />
-    <Content Include="Video\Homevideo.webm" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -157,7 +151,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ABOUT.aspx" />
-    <Content Include="BAGS.aspx" />
     <Content Include="CONTACT.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Default.aspx" />
@@ -180,13 +173,6 @@
     </Compile>
     <Compile Include="Admin.aspx.designer.cs">
       <DependentUpon>Admin.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="BAGS.aspx.cs">
-      <DependentUpon>BAGS.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="BAGS.aspx.designer.cs">
-      <DependentUpon>BAGS.aspx</DependentUpon>
     </Compile>
     <Compile Include="CONTACT.aspx.cs">
       <DependentUpon>CONTACT.aspx</DependentUpon>
@@ -254,6 +240,13 @@
     <Compile Include="mcmstark.aspx.designer.cs">
       <DependentUpon>mcmstark.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Productdetails.aspx.cs">
+      <DependentUpon>Productdetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Productdetails.aspx.designer.cs">
+      <DependentUpon>Productdetails.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Rubino.aspx.cs">
       <DependentUpon>Rubino.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -268,25 +261,11 @@
     <Compile Include="Capriccio.aspx.designer.cs">
       <DependentUpon>Capriccio.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Privatepage.aspx.cs">
-      <DependentUpon>Privatepage.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Privatepage.aspx.designer.cs">
-      <DependentUpon>Privatepage.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
-    </Compile>
-    <Compile Include="Register.aspx.cs">
-      <DependentUpon>Register.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Register.aspx.designer.cs">
-      <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
     <Compile Include="Settings.cs" />
     <Compile Include="Site1.Master.cs">

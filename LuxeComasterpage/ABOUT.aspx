@@ -13,7 +13,7 @@
             
                 We really hope you would cherish our website, as much we love to create it for you.  </p>
                
-                <h3> Love, Luxe & Co </h3>
+                <h4> Love, Luxe & Co </h4>
                    
         </div>
     <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2F1526897.studentwebserver.co.uk%2Fco5027%2FABOUT.aspx">HTML Validation</a>

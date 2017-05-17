@@ -21,7 +21,7 @@ namespace LuxeComasterpage
         {
             if (Page.IsValid)
             {
-                var identityDbcontext = new IdentityDbContext("IdentityConnectionString");
+                var identityDbcontext = new IdentityDbContext("db_1526897_co5027_asgConnectionString");
                 var userStore = new UserStore<IdentityUser>(identityDbcontext);
                 var userManager = new UserManager<IdentityUser>(userStore);
                 var user = userManager.Find(textUsername.Text, textPassword.Text);
@@ -29,7 +29,7 @@ namespace LuxeComasterpage
                 {
                     //Login in instructions
                     LogUserIn(userManager, user);
-                    Server.Transfer("privatePage.aspx", true);
+                    Server.Transfer("admin.aspx", true);
                 }
                 else
                 {

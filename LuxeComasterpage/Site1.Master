@@ -20,7 +20,6 @@
                     <div class="container">
                         <nav>
                             <a href="~/Default.aspx" runat="server"> HOME </a>
-                            <a href="~/BAGS.aspx" runat="server"> BAGS </a>
                             <a href="~/ABOUT.aspx" runat="server"> ABOUT LUXE </a>
                             <a href="~/CONTACT.aspx" runat="server"> CONTACT </a>
                             <a href="Login.aspx" runat="server"> LOGIN</a>

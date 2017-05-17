@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace LuxeComasterpage
 {
-    public partial class BAGS : System.Web.UI.Page
+    public partial class Productdetails : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

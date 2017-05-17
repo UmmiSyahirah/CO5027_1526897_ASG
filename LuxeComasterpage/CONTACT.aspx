@@ -11,7 +11,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
 
-        <h3> Be LUXE with us </h3>
+        <h4> Be LUXE with us </h4>
 
     <h4 class="auto-style1">
          <asp:Label ID="lblFirstname" runat="server" Text="First Name: "></asp:Label>
