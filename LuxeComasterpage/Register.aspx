@@ -15,7 +15,7 @@
     
     <br />
      <asp:Label ID="Labelmail" runat="server" Text="Email:"></asp:Label>
-      <asp:TextBox ID="textEmail" runat="server" Width="150px"></asp:TextBox>
+      <asp:TextBox ID="textEmail" runat="server" Width="150px" TextMode="Email"></asp:TextBox>
     <br />
     <br />
       <asp:Label ID="LabelPw" runat="server" Text="Password:"></asp:Label>
@@ -29,5 +29,6 @@
     <asp:Literal ID="LtrError" runat="server"></asp:Literal>
        </h4>
 
+    <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2F1526897.studentwebserver.co.uk%2Fco5027%2FRegister.aspx"> HTML Validation></a>
     
 </asp:Content>

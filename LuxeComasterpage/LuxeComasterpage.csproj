@@ -93,6 +93,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin.aspx" />
     <Content Include="Bag Photos\4Background.JPG" />
     <Content Include="Bag Photos\bagbanner.jpg" />
     <Content Include="Bag Photos\discoverbanner.jpg" />
@@ -141,6 +142,7 @@
     <Content Include="Register.aspx" />
     <Content Include="Site1.Master" />
     <Content Include="Furlastacy.aspx" />
+    <Content Include="Uploadfile.aspx" />
     <Content Include="Video\Homevideo.webm" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -171,6 +173,13 @@
     </Compile>
     <Compile Include="ABOUT.aspx.designer.cs">
       <DependentUpon>ABOUT.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin.aspx.designer.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
     </Compile>
     <Compile Include="BAGS.aspx.cs">
       <DependentUpon>BAGS.aspx</DependentUpon>
@@ -295,10 +304,18 @@
     <Compile Include="Furlastacy.aspx.designer.cs">
       <DependentUpon>Furlastacy.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Uploadfile.aspx.cs">
+      <DependentUpon>Uploadfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Uploadfile.aspx.designer.cs">
+      <DependentUpon>Uploadfile.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="ProductPhotos\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

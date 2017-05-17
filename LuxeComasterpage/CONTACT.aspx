@@ -11,7 +11,8 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
 
-        <h4> Be LUXE with us </h4>
+        <h3> Be LUXE with us </h3>
+
     <h4 class="auto-style1">
          <asp:Label ID="lblFirstname" runat="server" Text="First Name: "></asp:Label>
     <br />
@@ -37,7 +38,7 @@
      <br />
         <asp:Label ID="lblEmail" runat="server" Text="Email:"></asp:Label>
      <br />
-        <asp:TextBox ID="txtEmail" runat="server" Width="234px" OnTextChanged="txtEmail_TextChanged"></asp:TextBox>
+        <asp:TextBox ID="txtEmail" runat="server" Width="234px" OnTextChanged="txtEmail_TextChanged" TextMode="Email"></asp:TextBox>
 
         </h4>
 <h4 class="auto-style1">
@@ -47,7 +48,7 @@
         <asp:Label ID="lblPhone" runat="server" Text="Phone Number:"></asp:Label> 
      <br />
         
-        <asp:TextBox ID="txtPhone" runat="server" Width="234px"></asp:TextBox>
+        <asp:TextBox ID="txtPhone" runat="server" Width="234px" TextMode="Phone"></asp:TextBox>
 
         </h4>
 <h4 class="auto-style1">

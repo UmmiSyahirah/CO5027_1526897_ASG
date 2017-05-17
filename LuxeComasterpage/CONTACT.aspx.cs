@@ -19,18 +19,17 @@ namespace LuxeComasterpage
         {
             SmtpClient smtpClient = new SmtpClient();
             smtpClient.EnableSsl = true;
-            smtpClient.UseDefaultCredentials = false;
+            smtpClient.UseDefaultCredentials = true;
             smtpClient.Host = "smtp.gmail.com";
             smtpClient.Port = 587;
             System.Net.NetworkCredential credentials = new System.Net.NetworkCredential("luxeandco2017@gmail.com", "pw 123456");
 
             smtpClient.Credentials = credentials;
 
-            MailMessage msg = new MailMessage("luxeandco2017@gmail.com", txtEmail.Text);
+            MailMessage msg = new MailMessage("luxeandco2017@gmail.com", "luxeandco2017@gmail.com");
             msg.Subject = "Name:" + txtFirst.Text + "Subject:" + TxtSubject.Text;
             msg.Body = TxtMessage.Text;
-            smtpClient.Send(msg);
-
+         
             try
             {
                 smtpClient.Send(msg);

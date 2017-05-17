@@ -24,6 +24,7 @@
                             <a href="~/ABOUT.aspx" runat="server"> ABOUT LUXE </a>
                             <a href="~/CONTACT.aspx" runat="server"> CONTACT </a>
                             <a href="Login.aspx" runat="server"> LOGIN</a>
+                            <a href="Admin.aspx" runat="server"> ADMIN</a>
                         </nav>
                     </div>
                 </div>

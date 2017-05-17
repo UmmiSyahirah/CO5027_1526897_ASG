@@ -2,14 +2,12 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <br />
+    
+
+    <h3> Sign In for Luxe Member </h3>
 
     <h4>
-            SIGN IN
-
-
-   
-    <br />
+    
    <asp:Label ID="labelUsername" runat="server" Text="Username:"></asp:Label>
    <asp:TextBox ID="textUsername" runat="server"></asp:TextBox>
 
@@ -30,5 +28,8 @@
         
 
     <asp:Literal ID="LitText" runat="server"></asp:Literal>
-    
+
+    <br />
+
+    <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2F1526897.studentwebserver.co.uk%2Fco5027%2FLogin.aspx">HTML Validation</a>
 </asp:Content>
